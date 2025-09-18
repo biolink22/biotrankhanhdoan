@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Văn Trường </title>
+<title>Tran Khanh DOAN </title>
 <meta name="theme-color" content="#000000" />
 <meta name="description" content="LinkBio neon galaxy — DarkStack Team" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='50' font-size='52'%3E%F0%9F%9A%80%3C/text%3E%3C/svg%3E" />
@@ -80,7 +80,7 @@ html,body{
     <section class="panel" aria-label="Hồ sơ">
       <div class="head">
         <div class="avatar" id="avatar" title="Nhấn để thả tim">
-          <img src="https://scontent.fhan3-5.fna.fbcdn.net/v/t39.30808-6/548212711_1194387919398276_1625445559287135107_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEipmJTXlR_wmT7Smlf2nlGJe3eM2wmGcQl7d4zbCYZxEjNtCSsf3UVeyR8Vp4dbGchRh0YbpXN2ND9GJR3IBsW&_nc_ohc=Gd7WErWu1O0Q7kNvwFPppTM&_nc_oc=AdlwsueWlz2AT42E1o_TEkbD_miEw8IAZ542gWv89TAXLDYk-KmNvC_rDhmDsvP472gYGCPYDQICijPzwR_KAC4M&_nc_zt=23&_nc_ht=scontent.fhan3-5.fna&_nc_gid=63mSIEFwB-DGoKDrXeq2_A&oh=00_AfYNTZrz3BzY93RbMU8ECkHOt2rFmLKcfLN_PefJRUPcxg&oe=68D18B78" alt="Avatar" loading="lazy" />
+          <img src="https://i.imgur.com/XHXxqtU.jpeg" alt="Avatar" loading="lazy" />
           <span class="online" aria-hidden="true"></span>
         </div>
         <div class="title">
@@ -98,13 +98,13 @@ html,body{
       </div>
       <!-- Badges tách riêng, email cùng màu fg -->
       <div class="badges">
-        <span class="badge">📍 Hà Tĩnh , Việt Nam🇻🇳🇻🇳</span>
-        <span class="badge">☎ 0979720381</span>
+        <span class="badge">📍 Hà Tĩnh , Việt Nam</span>
+        <span class="badge">☎ 0981251350</span>
         <span class="badge">✉ vtruong12345t@gmail.com</span>
       </div>
       <p class="bio"> CHÀO MỪNG CÁC BẠN ĐẾN VỚI BIO CỦA MÌNH 🫃💻 CÔNG VIỆC LIÊN HỆ THÔNG TIN Ở BÊN DƯỚI   💕</p>
       <div class="actions">
-        <a class="btn" id="cta" href="https://www.facebook.com/rikaw.qz?locale=vi_VN" target="_blank" rel="noopener">LIÊN HỆ</a>
+        <a class="btn" id="cta" href="https://www.facebook.com/share/19yviVjjte/?mibextid=wwXIfr" target="_blank" rel="noopener">LIÊN HỆ</a>
         <button class="btn" id="toggleMusicBtn" aria-pressed="true">🔊 Tắt nhạc</button>
       </div>
     </section>
@@ -116,14 +116,15 @@ html,body{
       </div>
       <div class="section">Theo dõi nhanh</div>
       <div class="grid">
-        <a class="tile" href="https://www.tiktok.com/@rikawqfz?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener">▶ <strong>TikTok</strong></a>
-        <a class="tile" href="https://www.facebook.com/rikaw.qz?locale=vi_VN" target="_blank" rel="noopener">📘 <strong>Facebook</strong></a>
-        <a class="tile" href="https://zalo.me/0979720381" target="_blank" rel="noopener">💬 <strong>Zalo</strong></a>
+        <a class="tile" href="https://www.tiktok.com/@vantruong_111?_t=ZS-8znfe5sI1Yb&_r=1" target="_blank" rel="noopener">▶ <strong>TikTok</strong></a>
+        <a class="tile" href="https://www.tiktok.com/@vantruong_111?_t=ZS-8znfe5sI1Yb&_r=1" target="_blank" rel="noopener">▶ <strong>TikTok2</strong></a>
+        <a class="tile" href="https://www.facebook.com/share/19yviVjjte/?mibextid=wwXIfr" target="_blank" rel="noopener">📘 <strong>Facebook</strong></a>
+        <a class="tile" href="https://zalo.me/0981251350" target="_blank" rel="noopener">💬 <strong>Zalo</strong></a>
         <a class="tile" href="#">✉ <strong>Email</strong></a>
         <a class="tile" href="#" id="copyMail">📎 <strong>Copy Email</strong></a>
         <a class="tile" href="#" id="copyPhone">📞 <strong>Copy Phone</strong></a>
       </div>
-      <div class="footer">© 2025 • Tran Khanh Doan | DarkStack Team</div>
+      <div class="footer">© 2025 • Văn Trường | DarkStack Team</div>
     </section>
   </div>
 </div>
@@ -146,12 +147,12 @@ const toast=document.getElementById('toast');
 function showToast(text){ toast.textContent=text; toast.style.display='block'; clearTimeout(showToast.t); showToast.t=setTimeout(()=>toast.style.display='none',1500); }
 function safeCopy(t){ if(navigator.clipboard?.writeText){navigator.clipboard.writeText(t).then(()=>showToast('Đã copy!'));} else { const ta=document.createElement('textarea'); ta.value=t; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); showToast('Đã copy!'); }}
 document.getElementById('copyMail')?.addEventListener('click',(e)=>{e.preventDefault(); safeCopy('vtruong12345t@gmail.com')});
-document.getElementById('copyPhone')?.addEventListener('click',(e)=>{e.preventDefault(); safeCopy('0979720381')});
+document.getElementById('copyPhone')?.addEventListener('click',(e)=>{e.preventDefault(); safeCopy('0981251350')});
 
 // Avatar click hearts
 const avatar=document.getElementById('avatar');
 avatar.addEventListener('click',(e)=>{for(let i=0;i<7;i++) spawnHeart(e.offsetX??48, e.offsetY??48);});
-x,y){
+function spawnHeart(x,y){
   const el=document.createElement('div'); el.textContent='💖'; el.style.position='absolute'; el.style.left=x+'px'; el.style.top=y+'px'; el.style.pointerEvents='none';
   const fs=14+Math.random()*12; el.style.fontSize=fs+'px'; el.style.opacity=1;
   const dx=(Math.random()-.5)*60, dy=-(30+Math.random()*60); const rot=(Math.random()-.5)*60;
